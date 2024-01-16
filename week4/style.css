@@ -1,60 +1,24 @@
-.{
-    
-   margin: 0;
-    box-sizing: border-box;    
+* {
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+h2{
+    background-color: rgb(red, green, blue);
 }
 
-html {
-    font-size: 25px;
+#div {
+    font-size: 20px;
 }
+h2,
+h3,
+h4,
+p {
+    background-color: black;
+    width: 50;
 
-.container{
-    background-color: cyan;
-    text-align: center;
-    padding: 5px;
-    font-size: 20vh;
-    max-width: 600px;
 }
-
-.text{
-    font-size: 1cm;
+h2,
+h4 {
+    font-size: 30px;
 }
-
-.type{
-   display: none;
-   height: 25vh;
-   font-size: 2rem;
-}
-@media (max-width: 500px) {
-    .phone {
-        display: block;
-        background-color: rgb(2o4, 255, 19);
-    }
-}
-
-@media  (min-width:1001px)  and (max-width: 500px;) {
-    .widescreen {
-        display: block;
-        background-color: darkmagenta;
-        color: white;
-    }
-
-.block {
-    background-color: tomato;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-
-@media (max-width: 700px) {
-  .blocks {
-    flex-direction: column;
-  }
-  .block{
-    width: 92vw;
-  }   
-}
-
-    
-
- 
