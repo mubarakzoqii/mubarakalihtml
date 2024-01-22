@@ -1,21 +1,24 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
 }
 .bgcontent {
-    height: 60vh;
-    background-image: url(../../../img.images.jpg);
+    height: 30vh;
+   /* background-image:  url(../images/P80822-185002.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-     background: linear-gradient(rgb(214, 121 ,121), rgb(210, 210, 124), rgb(143, 143,232));   
+    background: linear-gradient(rgb);
+    height: 200px;
+    
 }
+
 .herosection {
-    height: 60vh;
-    background-image: url(../../../img/bg.jpg);
+    height: 30vh;
+    /* background-image: url(../images/P80822-185002.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;    
+    background-attachment: fixed;
 }
 
 .card p {
@@ -27,19 +30,7 @@
 }
 
 .maincontent {
-    color: white;
+    color: beige;
     text-align: center;
     margin-top: 40px;
-    height: 60vh;
-    width: 40%;
-    background-image: url(../../../img/frist.png),
-    
-    linear-gradient(rgb(223, 200, 186), rgb(176, 155, 201), rgb(89, 0, 255));
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-origin: border-box;
-  border: 20px dotted #4400ff;
-  background-blend-mode: multiply;
-
 }
