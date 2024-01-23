@@ -4,7 +4,6 @@
 }
 .bgcontent {
     height: 30vh;
-   /* background-image:  url(../images/P80822-185002.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +14,6 @@
 
 .herosection {
     height: 30vh;
-    /* background-image: url(../images/P80822-185002.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

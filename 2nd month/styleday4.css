@@ -1,0 +1,29 @@
+.mainDiv {
+    height: 1000px;
+    width: 50vw;
+    background-color: antiquewhite;
+    position: relative;
+}
+.div1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 0.5;
+}
+.div2 {
+    background-color: rgb(red, green, blue);
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.sticky {
+    background: red;
+    padding: 20px;
+    margin: 20px 0;
+    position: sticky;
+    top: 30px;
+    z-index: 1;
+}
