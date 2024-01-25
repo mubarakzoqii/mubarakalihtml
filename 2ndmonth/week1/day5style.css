@@ -1,34 +1,29 @@
-.beforeAfer {
-    text-align: center;
-    position: relative;
+.active a {
+    text-decoration: none;
 }
-.beforeAfer h3::before {
-    top: 11px;
-    left: 219px;
-    position: absolute;
-    content: "";
-    width: 13%;
-    height: 9%;
-    background-color: rgb(red, green, blue);
-}
-.beforeAfer h3:: :after {
-    top: 11px;
-    right: 219px;
-    position: absolute;
-    content: "";
-    width: 13%;
-    height: 9%;
-    background-color: rgb(red, green, blue);
-}
-.placeholder input::placeholder {
-    font-size: 20px;
+.active a:active {
+    text-decoration: underline;
     color: blue;
 }
-.placeholder p::first-letter {
-    font-size: 20px;
-    color: blue;
+.hover button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    outline: none;
+    font-size: 2rem;
 }
-ul {
-    list-style-type: none;
+.container:focus-within {
+    background-color: aqua;
 }
 
+#targetcontainer:target {
+    background-color: red;
+    color: #fff;
+    font-size: 1.7rem;
+}
+.visited a:visited {
+    color: rgb(rgb(195, 223, 207), green, blue);
+}
+
+.btn-visible button:focus-visible {
+    background-color: blueviolet;
+}

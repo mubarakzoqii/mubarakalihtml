@@ -1,45 +1,9 @@
-.mainDiv {
-    height: 1000px;
-    width: 50vw;
-    background-color: antiquewhite;
-    position: relative;
+.flex-example {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.DIV1 {
-    background-color: red;
-    height: 100PX;
-    width: 100px;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    z-index: 1;
-    opacity: 0.5;
-}
-.DIV2 {
-    background-color: rgb(red, green, blue);
-    height: 100px;
-    width: 100px;
-    position: absolute;
-}
-.STICKY {
-    background: red;
-    padding: 20px;
-    margin: 20PX 0;
-    position: sticky;
-    top: 30px;
-    z-index: 1;
-}
-.SCROLL {
-    border: 2PX solid;
-    width: 50vw;
-    overflow: scroll;
-    height: 4OVH;
-}
-.float {
-   background: #9ddb99;
-   padding: 20px;
-   width: 20%;
-   margin: 20px;
-   float: left;
-   margin-left: 20px;
-   box-shadow: 9PX 3PX 13PX rgb(2, 1, 0.3)
+.card {
+    background-color: beige;
 }
