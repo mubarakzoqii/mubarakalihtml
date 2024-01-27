@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+
+}
+header {
+    background-color: rgb(red, green, blue);
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2%;
+}
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.links {
+    display: flex;
+    margin-right: 20px;
+    gap: 30px;
+    list-style: none;
+}
+.links li {
+    color: #fff;
+}
