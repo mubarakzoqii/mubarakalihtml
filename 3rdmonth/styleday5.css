@@ -1,0 +1,21 @@
+.header
+{
+    background-color: rgb(76, 76, 184);
+    padding: 30px;
+    color: white;
+}
+.main
+{
+    margin: 0 auto;
+    width: 80vw;
+    border: 2px solid;
+}
+
+.grid-layout {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 15px;
+    
+}
