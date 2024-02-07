@@ -1,0 +1,293 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background-image: url('./images/FB_IMG_1522937372348.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper
+{
+    /* margin-left: 200px; 
+}
+.navbar
+{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo h3
+{
+    color: white;
+    margin-left: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.logo span{
+    color: #ff5959;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+    margin-left: 249px;
+}
+ul a{
+    padding: 20px;
+    text-decoration: none;
+}
+
+ul a li{
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+ul a li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100;
+    left: 400;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s;
+}
+
+/* ul a li:hover:after,
+ul a li:active:after {
+     width: 45px; 
+    /* border-bottom: 1px solid; */
+/* }  */
+
+.main-content
+{
+    margin: 120px 0 0 200px ;
+    /* border: 2px solid red; */
+    width: 35vw;
+}
+.main-content h1{
+    font-size: 5rem;
+    color: wheat;
+    
+}
+.main-content p
+{
+    color: white;
+    font-family: "Roboto","sans serif";
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.main-btn
+{
+    background-color: transparent;
+    border: 2px solid #d5595c;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Roboto', 'sans serif';
+    
+}
+#email
+{
+    display: inline;
+    /* border: 2px solid; */
+    margin-left: 20px;
+    font-style: italic;
+    font-family: 'Roboto', 'sans serif';
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+/* grid section links css */
+.grid-section-links 
+{
+    margin: 50px auto;
+    /* border: 2px solid; */
+    width: fit-content;
+    color: red;
+}
+.grid-section-links a{
+    /* margin-left: 20px; */
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto','sans serif';
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 20px;
+}
+
+/* grid layout */
+.image
+{
+    /* border: 2px solid; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-layout
+{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-rows: 200px 200px 200px; */
+    gap: 20px;
+    grid-auto-rows: minmax(200px,auto);
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    width: 63vw;
+}
+
+.image1
+{
+    background-image: url('./images/FB_IMG_1524196731370.jpg');
+}
+.image2
+{
+    background-image: url('./images/FB_IMG_1524280157817.jpg');
+}
+.image3
+{
+    background-image: url('./images/IMG-20181024-WA0021.jpg');
+}
+.image4
+{
+    background-image: url('./images/IMG-20181213-WA0002.jpg');
+}
+.image5
+{
+    background-image: url('./images/IMG_20240127_114630.jpg');
+}
+.image6
+{
+    background-image: url('./images/IMG_20240127_114652.jpg');
+}
+.image7
+{
+    background-image: url('./images/Screenshot_2024-01-20-22-04-52-48_a23b203fd3aafc6dcb84e438dda678b6.jpg');
+}
+.image8
+{
+    background-image: url(./images/FB_IMG_1522771086734.jpg);
+}
+.image9
+{
+    background-image: url('./images/FB_IMG_1524280157817.jpg');
+}
+.image10
+{
+    background-image: url('./images/FB_IMG_1524328489020.jpg');
+}
+.image11
+{
+    background-image: url('./images/FB_IMG_1524289646175.jpg');
+}
+
+
+/* grid-layout section ends here */
+.view-more-btn
+{
+     display: flex;
+    justify-content: center; 
+    text-align: center;
+    margin-top: 29px;
+}
+.view-more-btn button{
+    margin: 20px 0px 50px 0px;
+    background-color: transparent;
+    border: 2px solid #d5595c;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', 'sans serif';
+    
+}
+
+/* instagram section starts here */
+.instagram
+{
+    width: 14vw;
+    /* border: 2px solid; */
+    margin: 10px auto;
+}
+.instagram h1{
+    font-family: 'Roboto','sans serif';
+    font-weight: 600;
+    text-align: center;
+}
+.instagram p{
+    font-family: 'Roboto','sans serif';
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.76);
+}
+/* gallery section starts here */
+.gallery-container
+{
+    display: flex;
+    margin-top: 40px;
+
+}
+.picture
+{
+    /* border: 2px solid red; */
+    width: 17vw;
+    height: 33vh;
+    background-position: center;
+    background-size: cover;
+}
+.picture1
+{
+    background-image: url('./images2/20180308_162945.jpg');
+    
+}
+.picture2
+{
+    background-image: url('./images2/FB_IMG_1554128456320.jpg');
+}
+.picture3
+{
+    background-image: url('./images2/FB_IMG_1557042533051.jpg');
+}
+.picture4
+{
+    background-image: url('./images2/IMG-20180913-WA0033.jpg');
+    
+}
+.picture5
+{
+    background-image: url('./images2/IMG-20181024-WA0020.jpg');
+}
+.picture6
+{
+    background-image: url('./images2/IMG-20190416-WA0016.jpg');
+}
+
+/* footer section starts here */
+.footer-section
+{
+    display: flex;
+    justify-content: space-around;
+    text-wrap: wrap;
+    margin-left: 20px;
+    padding: 20px;
+}
+.fa-brands
+{
+    padding-left: 10px;
+}
